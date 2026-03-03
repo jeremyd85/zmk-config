@@ -40,14 +40,15 @@
             bindings = <&kp MINUS>;
             key-positions = <3 2>;
         };
-    };
 
-    macros {
-        copy: copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "COPY";
+        tick {
+            bindings = <&kp GRAVE>;
+            key-positions = <8 7>;
+        };
+
+        semicolin {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <27 28>;
         };
     };
 
@@ -80,10 +81,10 @@
 
         nav {
             bindings = <
-  &none  &none  &none  &none  &none    &none       &none     &kp LG(C)      &none        &none
-  &none  &none  &none  &none  &none    &kp CAPS    &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
-  &none  &none  &none  &none  &none    &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END
-                &none  &none  &none    &none       &none     &none
+  &none     &none         &none             &none           &none    &kp LG(LS(Z))  &kp LG(P)      &kp LG(C)      &kp LG(X)    &kp LG(Z)
+  &kp LGUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &kp CAPS       &kp LEFT       &kp DOWN       &kp UP       &kp RIGHT
+  &none     &none         &none             &none           &none    &kp INSERT     &kp HOME       &kp PAGE_DOWN  &kp PAGE_UP  &kp END
+                          &none             &none           &none    &kp ENTER      &kp BACKSPACE  &kp DELETE
             >;
         };
 
@@ -98,19 +99,19 @@
 
         sym {
             bindings = <
-  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp HASH         &none  &none            &none              &none          &none
-  &kp RIGHT_BRACE        &kp LEFT_BRACE        &kp AMPERSAND  &kp PIPE    &kp TILDE        &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RGUI
-  &kp RBKT               &kp LBKT              &kp COLON      &kp SEMI    &kp QUESTION     &none  &none            &none              &none          &none
-                                               &kp PERCENT    &kp EXCL    &kp BACKSLASH    &none  &none            &none
+  &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp CARET      &kp DOLLAR  &kp HASH        &none  &none            &none              &none          &none
+  &kp RIGHT_BRACE        &kp LEFT_BRACE        &kp AMPERSAND  &kp PIPE    &kp TILDE       &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RGUI
+  &kp RBKT               &kp LBKT              &kp COLON      &kp SEMI    &kp QUESTION    &none  &none            &none              &none          &none
+                                               &kp AT         &kp EXCL    &kp HASH        &none  &none            &none
             >;
         };
 
         num {
             bindings = <
-  &trans  &kp N7  &kp N8  &kp N9     &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N4  &kp N5  &kp N6     &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp N1  &kp N2  &kp N3     &trans    &trans  &trans  &trans  &trans  &trans
-                  &trans  &kp UNDER  &trans    &trans  &trans  &trans
+  &none          &kp N7  &kp N8      &kp N9  &kp PLUS        &none  &none  &none  &none  &none
+  &kp BACKSLASH  &kp N4  &kp N5      &kp N6  &kp EQUAL       &none  &none  &none  &none  &none
+  &none          &kp N1  &kp N2      &kp N3  &kp ASTERISK    &none  &none  &none  &none  &none
+                         &kp PERIOD  &kp N0  &kp MINUS       &none  &none  &none
             >;
         };
 
