@@ -22,43 +22,43 @@
         single_quote {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <6 7>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         equal {
             bindings = <&kp KP_EQUAL>;
             key-positions = <26 27>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         underscore {
             bindings = <&kp UNDER>;
             key-positions = <22 23>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         minus {
             bindings = <&kp MINUS>;
             key-positions = <3 2>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         tick {
             bindings = <&kp GRAVE>;
             key-positions = <8 7>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         semicolin {
             bindings = <&kp SEMICOLON>;
             key-positions = <27 28>;
-            layers = <0 5>;
+            layers = <0 1>;
         };
 
         switch_qwerty {
-            bindings = <&to 5>;
+            bindings = <&to 1>;
             key-positions = <0 1 2 3>;
-            layers = <2>;
+            layers = <3>;
         };
 
         switch_colemak {
@@ -110,7 +110,16 @@
   &kp Q             &kp W                 &kp F                     &kp P                   &kp B      &kp J      &kp L                &kp U                       &kp Y                   &kp SQT
   &left_mod LGUI A  &left_mod LEFT_ALT R  &left_mod LEFT_CONTROL S  &left_mod LEFT_SHIFT T  &kp G      &kp M      &right_mod RSHIFT N  &right_mod RIGHT_CONTROL E  &right_mod RIGHT_ALT I  &right_mod RGUI O
   &kp Z             &kp X                 &kp C                     &kp D                   &kp V      &kp K      &kp H                &kp COMMA                   &kp DOT                 &kp FSLH
-                                          &kp ESCAPE                &lt 2 SPACE             &kp TAB    &lt 4 RET  &lt 3 BACKSPACE      &lt 1 DELETE
+                                          &kp ESCAPE                &lt 3 SPACE             &kp TAB    &lt 5 RET  &lt 4 BACKSPACE      &lt 2 DELETE
+            >;
+        };
+
+        default_querty {
+            bindings = <
+  &kp Q                 &kp W                 &kp E                     &kp R                   &kp T      &kp Y      &kp U                &kp I                       &kp O                   &kp P
+  &left_mod LEFT_GUI A  &left_mod LEFT_ALT S  &left_mod LEFT_CONTROL D  &left_mod LEFT_SHIFT F  &kp G      &kp H      &right_mod RSHIFT J  &right_mod RIGHT_CONTROL K  &right_mod RIGHT_ALT L  &right_mod RGUI SEMI
+  &kp Z                 &kp X                 &kp C                     &kp V                   &kp B      &kp N      &kp M                &kp COMMA                   &kp DOT                 &kp FSLH
+                                              &kp ESCAPE                &lt 6 SPACE             &kp TAB    &lt 5 RET  &lt 4 BACKSPACE      &lt 2 DELETE
             >;
         };
 
@@ -147,15 +156,6 @@
   &kp LEFT_BRACKET  &kp N4  &kp N5      &kp N6  &kp ASTERISK    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_GUI
   &kp SLASH         &kp N1  &kp N2      &kp N3  &kp EQUAL       &none  &none            &none              &none          &none
                             &kp PERIOD  &kp N0  &kp MINUS       &none  &none            &none
-            >;
-        };
-
-        default_querty {
-            bindings = <
-  &kp Q                 &kp W                 &kp E                     &kp R                   &kp T      &kp Y      &kp U                &kp I                       &kp O                   &kp P
-  &left_mod LEFT_GUI A  &left_mod LEFT_ALT S  &left_mod LEFT_CONTROL D  &left_mod LEFT_SHIFT F  &kp G      &kp H      &right_mod RSHIFT J  &right_mod RIGHT_CONTROL K  &right_mod RIGHT_ALT L  &right_mod RGUI SEMI
-  &kp Z                 &kp X                 &kp C                     &kp V                   &kp B      &kp N      &kp M                &kp COMMA                   &kp DOT                 &kp FSLH
-                                              &kp ESCAPE                &lt 6 SPACE             &kp TAB    &lt 4 RET  &lt 3 BACKSPACE      &lt 1 DELETE
             >;
         };
 
