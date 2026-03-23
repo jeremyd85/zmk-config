@@ -119,10 +119,10 @@
 
         mac_default {
             bindings = <
-  &kp Q  &kp W                     &kp F                 &kp P             &kp B             &kp J        &kp L                   &kp U                   &kp Y                       &kp SQT
-  &kp A  &left_mod LEFT_CONTROL R  &left_mod LEFT_ALT S  &left_mod LGUI T  &kp G             &kp M        &right_mod RIGHT_GUI N  &right_mod RIGHT_ALT E  &right_mod RIGHT_CONTROL I  &kp O
-  &kp Z  &kp X                     &kp C                 &kp D             &kp V             &kp K        &kp H                   &kp COMMA               &kp DOT                     &kp FSLH
-                                   &kp ESCAPE            &lt 4 BACKSPACE   &sk LEFT_SHIFT    &lt 1 ENTER  &lt 3 SPACE             &lt 2 TAB
+  &kp Q                   &kp W                     &kp F                 &kp P             &kp B             &kp J        &kp L                   &kp U                   &kp Y                       &kp SQT
+  &left_mod LEFT_SHIFT A  &left_mod LEFT_CONTROL R  &left_mod LEFT_ALT S  &left_mod LGUI T  &kp G             &kp M        &right_mod RIGHT_GUI N  &right_mod RIGHT_ALT E  &right_mod RIGHT_CONTROL I  &right_mod RIGHT_SHIFT O
+  &kp Z                   &kp X                     &kp C                 &kp D             &kp V             &kp K        &kp H                   &kp COMMA               &kp DOT                     &kp FSLH
+                                                    &kp ESCAPE            &lt 4 BACKSPACE   &sk LEFT_SHIFT    &lt 1 ENTER  &lt 3 SPACE             &lt 2 TAB
             >;
         };
 
