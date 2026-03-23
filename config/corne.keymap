@@ -173,7 +173,7 @@
   &kp Q  &kp W                     &kp F                 &kp P             &kp B             &kp J        &kp L                   &kp U                   &kp Y                       &kp SQT
   &kp A  &left_mod LEFT_CONTROL R  &left_mod LEFT_ALT S  &left_mod LGUI T  &kp G             &kp M        &right_mod RIGHT_GUI N  &right_mod RIGHT_ALT E  &right_mod RIGHT_CONTROL I  &kp O
   &kp Z  &kp X                     &kp C                 &kp D             &kp V             &kp K        &kp H                   &kp COMMA               &kp DOT                     &kp FSLH
-                                   &kp ESCAPE            &lt 9 BACKSPACE   &kp LEFT_SHIFT    &lt 6 SPACE  &lt 8 ENTER             &lt 7 TAB
+                                   &kp ESCAPE            &lt 9 BACKSPACE   &kp LEFT_SHIFT    &lt 6 ENTER  &lt 8 SPACE             &lt 7 TAB
             >;
         };
 
