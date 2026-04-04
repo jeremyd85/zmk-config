@@ -155,7 +155,7 @@
 
         mac_nav_media {
             bindings = <
-  &kp C_BRIGHTNESS_DEC         &kp C_REWIND                       &kp C_FAST_FORWARD         &kp C_BRIGHTNESS_INC                 &bt BT_SEL 2    &trans      &trans    &trans         &trans       &trans
+  &kp C_BRIGHTNESS_DEC         &kp C_REWIND                       &kp C_FAST_FORWARD         &kp C_BRIGHTNESS_INC                 &bt BT_SEL 2    &trans      &kp H     &kp J          &kp K        &kp L
   &left_mod LEFT_SHIFT C_STOP  &left_mod LEFT_CONTROL C_PREVIOUS  &left_mod LEFT_ALT C_NEXT  &left_mod LEFT_COMMAND C_PLAY_PAUSE  &bt BT_SEL 1    &kp LCAPS   &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT
   &bt BT_CLR                   &kp C_VOLUME_DOWN                  &kp C_VOLUME_UP            &kp C_MUTE                           &bt BT_SEL 0    &kp INSERT  &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END
                                                                   &trans                     &trans                               &trans          &trans      &trans    &trans
