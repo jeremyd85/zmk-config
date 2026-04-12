@@ -13,7 +13,7 @@
     flavor = "tap-preferred";
 };
 
-&lt { quick-tap-ms = <20>; };
+&lt { quick-tap-ms = <175>; };
 
 / {
     chosen { zmk,matrix_transform = &five_column_transform; };
