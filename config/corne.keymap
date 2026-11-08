@@ -50,6 +50,26 @@
             bindings = <&kp DELETE>;
             key-positions = <26 27 28>;
         };
+
+        toggle_num {
+            bindings = <&tog 1>;
+            key-positions = <33 6 7 8>;
+        };
+
+        toggle_nav {
+            bindings = <&tog 4>;
+            key-positions = <31 6 8 7>;
+        };
+
+        toggle_sym {
+            bindings = <&tog 3>;
+            key-positions = <6 7 8 34>;
+        };
+
+        toggle_fn {
+            bindings = <&tog 2>;
+            key-positions = <35 6 7 8>;
+        };
     };
 
     behaviors {
